@@ -20,7 +20,7 @@ export default function MyForm() {
                             <textarea className="w-full rounded-lg border-solid border-2 border-gray-200 p-3 text-sm" rows="8" placeholder="Message" id="message"></textarea>
                         </div>
                         <div className="mt-4">
-                            <button type="submit" className="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto">Send message</button>
+                            <button type="submit" className="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto hover:scale-110 transition-transform duration-100">Send message</button>
                         </div>
                     </form>
                 </div>

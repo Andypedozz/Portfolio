@@ -2,7 +2,7 @@
 export default function Header() {
 
     return(
-        <header>
+        <div>
             <div className="flex justify-between items-center">
                 <h1 className="m-3 align-middle justify-start font-bold text-3xl">MY WEBSITE</h1>
                 <nav className="m-3">
@@ -13,6 +13,6 @@ export default function Header() {
                     </ul>
                 </nav>
             </div>
-        </header>            
+        </div>
     );
 }

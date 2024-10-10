@@ -37,10 +37,10 @@ export default function Projects() {
     }
 
     return(
-        <div>
+        <div className="bg-gradient-to-br from-blue-400 to-blue-100">
             <Header />
             <h2 className="text-center font-bold text-2xl">What i've worked on</h2>
-            <div>
+            <div className="p-4">
                 <MyCard props={earthquakes}/>
                 <MyCard props={pokemon}/>
                 <MyCard props={twoSum}/>
